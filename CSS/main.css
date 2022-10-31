@@ -1,0 +1,298 @@
+
+/* ------------TODOS LAS PAGINAS --------------- */
+
+.body {
+
+    font-family: 'Monserrat',sans-serif;
+ /* reset */
+    margin: 0;  
+    padding: 0;
+}
+.header {
+
+    height:auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+
+    background: linear-gradient(180deg, rgba(233,121,19,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+.p-all {
+
+
+    font-size: 20px;
+    word-spacing: 5 px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.carrito {
+
+    font-size: 20px;
+    word-spacing: 0px;
+    
+  
+
+}
+
+.inline {
+
+    display: inline-block;
+    image-orientation:left;
+
+}
+
+
+
+
+main section h1 {
+
+    color: rgb(71, 69, 66);
+    font-family: 'Monserrat',sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 10px;
+
+    animation-name: titulo;
+    animation-duration: 2s;
+    
+
+
+   
+} 
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+   
+
+.color-link:hover {
+    color: rgb(233, 182, 14);
+}
+
+main section nav  {
+    color: rgb(207, 181, 131);
+
+    /* -------element.style - FlexBox*/
+
+    padding: 20 px;
+    border: solid 5px rgb(236, 169, 61);
+    margin: 0px 0px 40px 0px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+    
+}
+    
+
+
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+
+/* -------element.style---------- */
+.divZemla {
+    padding: 5px;
+    width: 150px;
+    display: inline-block;
+
+}
+
+.divContact {
+    padding: 5px;
+    width: 230px;
+    display: inline-block;
+
+    
+
+}
+ 
+
+
+
+.divMap {
+    padding: 5px;
+    width: auto;
+    display: inline-block;
+
+}
+
+.divRedes {
+    padding: 5px; 
+    width: 180px;
+    display: inline-block;
+
+}
+
+ .divNovedad  {
+    padding: 5px;
+    width: auto;
+    display: inline-block;
+
+
+} 
+
+#newsletter {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+footer {
+    height: auto;
+    width: auto;
+    
+
+    background: linear-gradient(0deg, rgba(233,121,19,1) 0%, rgba(255,255,255,1) 100%);
+  
+  
+    
+}
+
+
+
+ /* ------------------HOME---------------- */
+
+
+.about-us {
+
+    color: rgb(131, 131, 10);
+    text-align: left;
+    letter-spacing: 5px;
+ }
+
+ /* FlexBox */
+
+ .home-img {
+
+     margin: 0 0 30px 0;
+
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:space-around;
+
+    
+
+ }
+
+ .dropdown {
+    margin: 0 30px 30px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:right;
+    align-items: center;
+
+ }
+
+ .breadcrumb {
+    margin: 0 0 30px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+   
+
+ }
+
+
+ .scale {
+    transition: all 0.5s ease-in-out;
+ }
+ .scale:hover {
+    transform: scale(1.2);
+ }
+
+.search {
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content:center;
+
+}
+
+  /* -----------------BRUMA Y AROMATIZADORES/ VELAS DE SOJA----------- */
+
+#brumas {
+    color: rgb(180, 179, 86);
+    font-size: 25px;
+}
+
+#aroma {
+    color: rgb(180, 179, 86);
+    font-size: 25px;
+
+}
+
+tr {
+    color: rgb(214, 213, 133);
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+#velas {
+    color: rgb(180, 179, 86);
+    font-size: 25px;
+}
+
+
+/* -----------------CARRITO----------- */
+h2 {
+    color: rgb(180, 179, 86);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+
+.divCarrito {
+    padding: 5px;
+    border: solid 2px black;
+    width: 150px;
+    margin: 0 10px 20px 20px;
+    
+   
+}
+
+.divPagos {
+    padding: 5px;
+    border: solid 2px black;
+    width: 250px;
+    margin: 0 10px 20px 20px;
+  
+   
+}
+
+
+
+
+
+
+
+

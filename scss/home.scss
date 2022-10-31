@@ -1,0 +1,31 @@
+.about-us {
+
+    color: rgb(131, 131, 10);
+    text-align: left;
+    letter-spacing: 5px;
+    padding: $padding;
+ }
+
+//main segunda sección 
+ .home-img {
+
+     margin: 0 0 30px 0;
+
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:space-around;
+
+ }
+
+
+
+ //Buscador
+.search {
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content:center;
+
+}

@@ -1,0 +1,255 @@
+
+
+.body {
+
+    font-family: 'Monserrat',sans-serif;
+//reset
+    margin: 0;  
+    padding: 0;
+}
+
+.header {
+
+    height:auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+
+    background: linear-gradient(180deg, rgba(233,121,19,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+//buscador
+.p-all {
+
+
+    font-size: 20px;
+    word-spacing: 5 px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+ //Desplegable del Carrito
+ .dropdown {
+    margin: 0 30px 30px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:right;
+    align-items: center;
+
+ }    
+   
+
+//main todas las paginas
+//main primer seccion
+main section h1 {
+
+    color: rgb(71, 69, 66);
+    font-family: 'Monserrat',sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 10px;
+
+    animation-name: titulo;
+    animation-duration: 2s;
+    
+} 
+
+.breadcrumb {
+    margin: 0 0 30px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    
+    
+}
+
+.botondecompra {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+
+}
+
+   
+
+.color-link:hover {
+    color: rgb(233, 182, 14);
+}
+
+main section nav  {
+    color: rgb(207, 181, 131);
+
+  
+
+    padding: 20 px;
+    border: solid 5px rgb(236, 169, 61);
+    margin: 0px 0px 40px 0px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+    
+}
+    
+
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+
+//Footer
+
+.divZemla {
+    padding: $padding-foot;
+    width: 150px;
+    display: $display-foot;
+
+}
+
+.divContact {
+    padding: $padding-foot;
+    width: 230px;
+    display:$display-foot;
+
+    
+
+}
+ 
+
+
+
+.divMap {
+    padding: $padding-foot;
+    width: auto;
+    display:$display-foot;
+
+}
+
+.divRedes {
+    padding:$padding-foot; 
+    width: 180px;
+    display: $display-foot;
+
+}
+
+ .divNovedad  {
+    padding:$padding-foot;
+    width: auto;
+    display: $display-foot;
+
+
+} 
+
+#newsletter {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+ //Animacines
+
+ .scale {
+    transition: $scale
+   
+ }
+ .scale:hover {
+    transform: $scale-h
+   
+ }
+
+
+footer {
+    height: auto;
+    width: auto;
+    
+
+    background: linear-gradient(0deg, rgba(233,121,19,1) 0%, rgba(255,255,255,1) 100%);
+  
+   
+    
+}
+
+//Links colores
+.breadcrumb-item a {
+    color: $links;
+}
+
+.breadcrumb-item a:hover {
+    color: $links-h;
+}
+
+.row li a {
+    color: $links;
+}
+
+.row  li a:hover {
+    color: $links-h;
+}
+
+// //Mobile
+// @media only screen and (min-width: 320px) 
+//  {
+    
+//     .header {
+//         height: auto;
+//         width: auto;
+//         display: flex;
+//         flex-direction: column;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//         padding: 5px;
+//         align-content: center;
+
+// }
+
+// .breadcrumb {
+//     margin: 0 0 30px 0;
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     flex-direction: column;
+//     align-content: space-around;
+// }
+
+// //about-us home
+// .container p {
+//     width: 300px;
+// }
+
+// //Footer todos
+// .footer {
+//     display: flex;
+//         flex-direction: column;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//         padding: 5px;
+//         align-content: center;
+// }
+
+
+// .fragancia-velas {
+//     display: flex;
+//     align-content: center;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+// }

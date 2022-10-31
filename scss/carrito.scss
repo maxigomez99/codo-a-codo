@@ -1,0 +1,33 @@
+h2 {
+    color: rgb(180, 179, 86);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.pagos {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+
+    padding: $padding;
+}
+
+.divCarrito {
+    padding: 5px;
+    border: solid 2px black;
+    width: 350px;
+    margin: 0 10px 20px 20px;
+    
+   
+}
+
+.divPagos {
+    padding: 5px;
+    border: solid 2px black;
+    width: 250px;
+    margin: 0 10px 20px 20px;
+  
+   
+}

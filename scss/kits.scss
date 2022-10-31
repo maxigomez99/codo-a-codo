@@ -1,0 +1,19 @@
+
+.kits {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+
+.btncompra-kit {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+
+    padding:  $padding;
+
+    text-align: center;
+
+}
